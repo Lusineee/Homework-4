@@ -1,0 +1,10 @@
+Ex. 2
+function range(x,y){
+    let results = [];
+    if(x === y){
+        return results;
+    }
+    results.push(x);
+return  results.concat(range(x + 1,y));
+}
+range(1,5)
